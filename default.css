@@ -1,0 +1,96 @@
+.test {
+    color: red;
+}
+
+.is-shuffle-active {
+    color: #8875e9 !important;
+}
+.is-music-active {
+    background-color: rgba(68, 67, 67, 0.5);
+}
+.t-p {
+    color: #8875e9 !important;
+}
+
+/* @media (max-width:1024px) { 
+    html {
+        font-size: 48px;
+    }
+    .container-narrow {
+    }
+    .title {
+        font-size: 40px;
+        color: white;
+    }
+    .artist {
+        font-size: 34px;
+        color: #ffffffbb;
+    }
+    .lists {
+        margin: 10px 0;
+        padding: 10px 30px;
+    }
+}
+@media (min-width:1024px) {
+    .container-narrow {
+        max-width: 280px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 5px 10px;
+        background-color: rgba(0, 0, 0, 0.3);
+        box-shadow: 1px 0 10px 1px #8875e9;
+    }
+
+    .title {
+        font-size: 1rem;
+        color: white;
+    }
+    .artist {
+        font-size: 0.8rem;
+        color: #ffffffbb;
+    }
+} */
+.container-narrow {
+    max-width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 0 10px 1px #8875e9;
+}
+.opepator {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid none;
+    border-width: 1px;
+    border-color: #8875e9;
+    margin-bottom: 0.5rem;
+}
+.title {
+    font-size: 16px;
+    color: white;
+}
+.artist {
+    font-size: 12px;
+    color: #ffffffbb;
+}
+.ic {
+    color: white;
+}
+.ic:hover {
+    color: #8875e9;
+}
+.lists:hover {
+    background-color: rgba(68, 67, 67, 0.5);
+}
+body {
+    background-image: url(http://konekato.github.io/assets/img/back_playlist.jpg);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+ol {
+    padding: 0;
+    list-style: none;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
