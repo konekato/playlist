@@ -14,6 +14,15 @@ ol {
 
 footer {
     background-color: rgba(0, 0, 0, 0) !important;
+    color: #7C63FF;
+}
+
+footer i {
+    color: #7C63FF;
+}
+
+footer i:hover {
+    color: #503fa7;
 }
 
 #player {
@@ -37,8 +46,8 @@ footer {
     color: white;
 }
 
-.t-p {
-    color: #8875e9 !important;
+.nav-link:hover {
+    color: #8875e9;
 }
 
 .container-narrow {
