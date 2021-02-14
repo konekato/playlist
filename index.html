@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="shortcut icon" href="http://konekato.github.io/assets/img/favicon.ico">
     <link rel="stylesheet" href="http://konekato.github.io/assets/css/default.css">
-    <link rel="stylesheet" href="/default.css">
+    <link rel="stylesheet" href="https://konekato.github.io/playlist/default.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -27,7 +27,72 @@
 </head>
 
 <body>
-    <div class="test">Hello</div>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-header">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://konekato.github.io/home/">Home</a>
+                </li>
+            </ul>
+            <div class="navbar-nav">
+                <a class="navbar-brand branding" href="https://konekato.github.io/">
+                    <img src="https://konekato.github.io/assets/img/brands/logo_white.png" alt="kONE" width="50px" height="15px">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- body -->
+    <div id="player"></div>
+    <div class="container-narrow">
+        <div class="top">
+            <img alt="PLAYLIST" src="https://konekato.github.io/playlist/img/playlist@320.png" width="320" height="109">
+        </div>
+        <div class="text-center opepator">
+            <a id="shuffle"><i class="fas fa-random fa-fw fa-lg"></i></a>
+            <a id="prev"><i class="fas fa-caret-left fa-fw fa-3x"></i></a>
+            <a id="pause"><i class="fas fa-play-circle fa-fw fa-3x"></i></a>
+            <a id="next"><i class="fas fa-caret-right fa-fw fa-3x"></i></a>
+            <a id="mute"><i class="fas fa-volume-up fa-fw fa-lg"></i></a>
+        </div>
+        <ol id="playlist">
+        </ol>
+    </div>
+
+    <script src="https://konekato.github.io/playlist/main.js"></script>
+
+    <!-- footer -->
+    <footer class="container-fluid pt-3 pb-3">
+        <div class="row">
+            <div class="offset-md-1 branding h3">
+                <img src="https://konekato.github.io/assets/img/brands/logo_purple.png" alt="kONE" width="67px" height="20px">
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-md-1 mb-4" style="font-size: 20px;">
+                <a href="https://github.com/konekato" target="_blank" rel="noopener noreferrer" class="ml-1">
+                    <i class="fab fa-github fa-sm fa-fw"></i>
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="ml-1">
+                    <i class="fab fa-linkedin-in fa-sm fa-fw"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="ml-1">
+                    <i class="fab fa-twitter fa-sm fa-fw"></i>
+                </a>
+                <a href="https://www.facebook.com/keiichi.kato.3154" target="_blank" rel="noopener noreferrer"
+                    class="ml-1">
+                    <i class="fab fa-facebook-f fa-sm fa-fw"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="ml-1">
+                    <i class="fab fa-instagram fa-sm fa-fw"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-md-1 offset-md-1">&copy; 2020 konekato</div>
+        </div>
+    </footer>
 </body>
 
 </html>
