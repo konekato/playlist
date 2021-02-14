@@ -94,6 +94,10 @@ footer i:hover {
     padding: 5px 10px;
 }
 
+.container-narrow #playlist .list .t-p {
+    color: #7C63FF !important;
+}
+
 .container-narrow #playlist .list .title {
     color: white;
     font-size: 18px;
