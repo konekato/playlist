@@ -177,3 +177,17 @@ for (let i = 0; i < playTargets.length; i++) {
     loadMusic(i);
   });
 }
+
+function isNotPC() {
+    if (navigator.userAgent.match(/iPhone|Android|Mobile/)) {
+      return true;
+    } else {
+      return false;
+    }
+}
+
+$(document).ready(function () {
+    if (isNotPC()) {
+        $('#myModal').modal('show');
+    }
+});

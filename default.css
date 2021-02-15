@@ -140,3 +140,30 @@ footer i:hover {
         width: 100vw;
     }
 }
+
+/* modal settings */
+.modal-content {
+    background-color: #2f205a !important;
+    background-image: -webkit-radial-gradient(circle, #412c7a, #08050f);
+    background-image: radial-gradient(circle, #412c7a, #08050f);
+    padding-bottom: 50px;
+}
+
+.modal-header {
+    border: none !important;
+}
+
+.modal-body {
+    color: #c198f1;
+    padding: 50px 0 !important;
+}
+
+.modal-body .max {
+    font-family: 'Russo One', sans-serif;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.modal-body img {
+    margin: 30px 0 40px 0;
+}
