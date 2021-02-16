@@ -1,16 +1,20 @@
 // Musics in playlist
-function Music(id, name, artist) {
-  this.id = id;
+function Music(url, name, artist) {
+  const urlPrefix = "https://www.youtube.com/v/";
+  const urlPrefixLength = urlPrefix.length;
+
+  this.url = url;
   this.name = name;
   this.artist = artist;
+  this.id = url.substring(urlPrefixLength);
 }
 const musics = [
-  new Music("hKoioiDpwrk", "Higher's High (TAKU INOUE Remix)", "ナナヲアカリ"),
-  new Music("x8VYWazR5mE", "夜に駆ける", "YOASOBI"),
-  new Music("POCs38Rputs", "その群青が愛しかったようだった", "n-buna feat.ヤギヌマカナ"),
-  new Music("nDbNRb9gOr4", "夜明けと蛍", "ナブナ"),
-  new Music("DtBoAqkIJzI", "幽霊東京", "Ayase"),
-  new Music("E2b_bvTbDz8", "太陽になれるかな", "ツユ"),
+  new Music("https://www.youtube.com/v/hKoioiDpwrk", "Higher's High (TAKU INOUE Remix)", "ナナヲアカリ"),
+  new Music("https://www.youtube.com/v/x8VYWazR5mE", "夜に駆ける", "YOASOBI"),
+  new Music("https://www.youtube.com/v/POCs38Rputs", "その群青が愛しかったようだった", "n-buna feat.ヤギヌマカナ"),
+  new Music("https://www.youtube.com/v/nDbNRb9gOr4", "夜明けと蛍", "ナブナ"),
+  new Music("https://www.youtube.com/v/DtBoAqkIJzI", "幽霊東京", "Ayase"),
+  new Music("https://www.youtube.com/v/E2b_bvTbDz8", "太陽になれるかな", "ツユ"),
 ];
 const musicsCounter = musics.length;
 let now_i = 0;
